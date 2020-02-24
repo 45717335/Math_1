@@ -12,8 +12,8 @@ Function sizeyunsuan(Optional op1 As String = "", Optional op2 As String = "") A
     Dim JIA As String, JIAN As String, CHENG As String, CHU As String, DENG As String
     JIA = "+"
     JIAN = "-"
-    CHENG = "°¡"
-    CHU = "°¬"
+    CHENG = "√ó"
+    CHU = "√∑"
     DENG = "=      "
     If op1 = "+" Then op1 = JIA
     If op1 = "-" Then op1 = JIAN
@@ -31,16 +31,16 @@ Function sizeyunsuan(Optional op1 As String = "", Optional op2 As String = "") A
     If op2 = "JIAN" Then op2 = JIAN
     If op2 = "CHENG" Then op2 = CHENG
     If op2 = "CHU" Then op2 = CHU
-    If op1 = "º”" Then op1 = JIA
-    If op1 = "ºı" Then op1 = JIAN
-    If op1 = "≥À" Then op1 = CHENG
-    If op1 = "≥˝" Then op1 = CHU
-    If op2 = "º”" Then op2 = JIA
-    If op2 = "ºı" Then op2 = JIAN
-    If op2 = "≥À" Then op2 = CHENG
-    If op2 = "≥˝" Then op2 = CHU
-    If op1 = "≥˝“‘" Then op2 = CHU
-    If op2 = "≥˝“‘" Then op2 = CHU
+    If op1 = "Âä†" Then op1 = JIA
+    If op1 = "Âáè" Then op1 = JIAN
+    If op1 = "‰πò" Then op1 = CHENG
+    If op1 = "Èô§" Then op1 = CHU
+    If op2 = "Âä†" Then op2 = JIA
+    If op2 = "Âáè" Then op2 = JIAN
+    If op2 = "‰πò" Then op2 = CHENG
+    If op2 = "Èô§" Then op2 = CHU
+    If op1 = "Èô§‰ª•" Then op2 = CHU
+    If op2 = "Èô§‰ª•" Then op2 = CHU
     b_c = True
     Do While b_c
         i1 = Int(Rnd() * 99 + 1)
