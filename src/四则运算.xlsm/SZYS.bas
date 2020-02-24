@@ -156,15 +156,9 @@ Function sizeyunsuan(Optional op1 As String = "", Optional op2 As String = "") A
     ElseIf op1 = CHU And op2 = CHU Then
         sizeyunsuan = i8 * i9 * i10 & CHU & i8 & CHU & i9 & DENG & i10
     End If
-    
     If InStr(sizeyunsuan, CHENG & 1) > 0 Or InStr(sizeyunsuan, CHU & 1) > 0 Or InStr(sizeyunsuan, 1 & CHENG) > 0 Then
     sizeyunsuan = sizeyunsuan(op1, op2)
     ElseIf InStr(sizeyunsuan, CHENG & 0) > 0 Then
     sizeyunsuan = sizeyunsuan(op1, op2)
     End If
-    
-    
-End Function
-Function xx() As String
-xx = "XXXXXXAFASF"
 End Function
